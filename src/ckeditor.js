@@ -42,7 +42,6 @@ import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript.js';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
 import Code from '@ckeditor/ckeditor5-basic-styles/src/code.js';
-import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock.js';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -83,8 +82,7 @@ ClassicEditor.builtinPlugins = [
 	Superscript,
 	Underline,
 	WordCount,
-	Code,
-	CodeBlock
+	Code
 ];
 
 // Editor configuration.
